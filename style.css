@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+    font-size: 62.5%;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: #F5F5F5;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2rem;
+}
+ strong {
+  color: #3D62CB;
+ }
+
+ hr {
+  margin: 10px 0;
+  border-top: 3px solid #CCC;
+  border-radius: 5px;
+ }
+
+ .mainContainer {
+  border: 1px solid #CCC;
+  border-radius: 10px;
+  padding: 20px;
+  background: #FFF;
+  max-width: 450px;
+  min-height: 300px;
+}
+
+ .pokemonLogo {
+  margin: 30px 0 25px 0;
+  width: 100%;
+ }
+
+ .groupForm label {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #1b356e;
+ }
+
+ .groupForm input{ 
+  width: 100%;
+  height: 5rem;
+  outline: none;
+  padding: 10px;
+ }
+
+ #submit {
+  margin: 2rem 0 0 0;
+  background-color: #202A63;
+  color: white;
+  font-weight: bold; text-transform: uppercase;
+  border: 1px solid #CCC;
+    border-radius: 5px;
+    font-family: Poppins;
+    text-transform: uppercase;
+    font-size: 2rem;
+  padding: 10px;
+  transition: 200ms;
+ }
+
+ #submit:hover {
+  background-color: #202a63ee;
+ }
+
+ #content {
+  font-family: monospace;
+  padding: 15px;
+  background-color: #FFCC01;
+  border: 1px solid #c8a102;
+  text-align: center;
+  border-radius: 5px;
+  color: #333;
+  margin: 10px 0 0 0;
+  width: 100%;
+  height: 9rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+ }
+
+ @media screen and (max-width: 320px) {
+  .mainContainer {
+    max-width: 90%;
+  min-height: 300px;
+  }
+ }
+
+ @media screen and (max-width: 375px) {
+  .mainContainer {
+    max-width: 90%;
+    min-height: 300px;
+  }
+ }
+
+ @media screen and (max-width: 425px) {
+  .mainContainer {
+    max-width: 90%;
+    min-height: 300px;
+  }
+ }
+
